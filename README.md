@@ -1,16 +1,25 @@
-# Forja
-#### Asignatura: *Ingeniería Web: Visión General*
-#### [Máster en Ingeniería Web por la U.P.M.](http://miw.etsisi.upm.es)
-
+## [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)
+## Ingeniería Web: Visión General (IWVG)
+### Flujo de Trabajo con Bifurcación (Fork-Workflow)
+> Proyecto demostración del Flujo de Trabajo con Bifurcación. 
+Es un proyecto donde los alumnos colaboran para poner en práctica el flujo de trabajo con bifurcación
 ### Tecnologías necesarias
 * Java
 * Maven
-* IntelliJ
 * GitHub
+* Travis-ci
+* Sonarcloud
+* Better Code Hub
+* Spring-boot
+* Heroku
 
-### Descripción
-Este proyecto pretende ser una plantilla maven para crear un proyecto
-1.- Descomprimir en la carpeta de trabajo
-1.- Editar el pom.xml y cambiarle el nombre del proyecto
-1.- Desde IntelliJ, `Import Project`, marcar `Create Project from external model` y elegir `Maven`
-
+### Clonar el proyecto
+1. Clonar el repositorio en tu equipo, **mediante consola**:
+```sh
+> cd <folder path>
+> git clone https://github.com/miw-upm/iwvg-ecosystem
+```
+2. Importar el proyecto mediante **IntelliJ IDEA**
+   1. **Import Project**, y seleccionar la carpeta del proyecto.
+   1. Marcar **Create Project from external model**, elegir **Maven**.
+   1. **Next** … **Finish**.
