@@ -28,4 +28,8 @@ public class User {
     public void setFullname(String fullname) {
         this.fullname = fullname;
     }
+
+    public String deleteUser(){
+        return "User deleted correctly";
+    }
 }
